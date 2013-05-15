@@ -1,0 +1,23 @@
+h1	{
+	color: #232412;
+	text-shadow: 0.1875em 0.1875em 0.1875em #424331;
+	font-size: 4em;
+	text-align: center;
+	line-height: 100%;
+	margin: 0;
+	padding: 2.5%;	
+}
+
+p {
+	text-align: center;
+}
+
+ol li {
+	  border: 0.5em solid #232412;
+	  background-attachment: fixed;
+	  list-style-type: none;
+	  padding: 0.9em;
+	  float: left;
+	  margin: 2em;
+	  overflow: hidden;
+}
