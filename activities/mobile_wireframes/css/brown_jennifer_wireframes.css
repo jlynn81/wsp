@@ -12,12 +12,9 @@ p {
 	text-align: center;
 }
 
-ol li {
-	  border: 0.5em solid #232412;
-	  background-attachment: fixed;
-	  list-style-type: none;
-	  padding: 0.9em;
-	  float: left;
-	  margin: 2em;
-	  overflow: hidden;
+li {
+	text-align: center;
+	list-style-type: none;
+  	padding: 0.9em;
+	margin: 2em;
 }
