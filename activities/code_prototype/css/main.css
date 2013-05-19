@@ -1,3 +1,96 @@
-#link {
-	text-align: right;
+* {
+
+text-decoration:none;
+
+font-size:1em;
+
+outline:none;
+
+margin:0;
+
+padding:0;
+
+}
+
+textarea,select {
+
+font:inherit;
+
+font-size:1em;
+
+}
+
+dfn,i,cite,var,address,em {
+
+font-style:normal;
+
+}
+
+th,b,strong,h1,h2,h3,h4 {
+
+font-weight:400;
+
+}
+
+a,img,a img,iframe,form {
+border: none;
+}
+
+fieldset {
+
+border:solid 0.5em;
+margin: 10px;
+padding: 10px;
+}
+
+table {
+
+border-collapse:collapse;
+
+border-spacing:0;
+
+border:0;
+
+}
+
+caption,th,td,center {
+
+font-weight:400;
+
+text-align:left;
+
+vertical-align:top;
+
+}
+
+body {
+
+line-height:1;
+
+background:#FFF;
+
+color:#000;
+
+}
+
+ul,ol,dl,li,dt,dd dir,menu {
+
+list-style:none;
+
+}
+
+
+a {
+
+color:inherit;
+
+}
+
+
+font {
+
+font:inherit !important;
+
+color:inherit !important;
+
 }
