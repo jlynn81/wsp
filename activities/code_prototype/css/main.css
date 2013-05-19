@@ -16,6 +16,13 @@ text-align: center;
 float: left;
 }
 
+#navigation {
+	position: relative;
+	margin: 2.5%;
+	padding-top: 100px; 
+	font: 1.5em bold;
+}
+
 strong {
 font-weight: bold;
 float: none;
@@ -65,4 +72,14 @@ display: inline;
 a {
 color:#422b00;
 
+}
+
+footer {
+padding: 0.05em;
+clear: both;
+}
+
+#footer_nav {
+padding: 0.05em;
+float: right;
 }
