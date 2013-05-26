@@ -342,7 +342,6 @@ text-align: center;
     background-image: -o-linear-gradient(#ebe2d1, #8f6f27);
     background-image: -ms-linear-gradient(#ebe2d1, #8f6f27);
     background-image: linear-gradient(#ebe2d1, #8f6f27);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#ebe2d1', EndColorStr='#8f6f27');     
 }
 
 #form-wrapper .button:active
@@ -441,7 +440,6 @@ clear:both;
 	padding: 1.875%;
 	display: none;
 } 
-
 }
 
 
