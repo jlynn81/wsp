@@ -20,8 +20,8 @@ font: 1.5em;
 margin: 10px 0 10px 20px;
 }
 
-div .contactus {
-	text-align: right;
+#contactus {
+	text-align: left;
 	margin: 1em;
 	overflow: hidden;
 }
@@ -187,8 +187,7 @@ float: left;
 h1 {
 font-family: 'Libre Baskerville', serif;
 font-weight: bold;
-margin-top: 5%;
-margin-left:20%;
+margin: 0 0 0 0;
 display: inline;
 float: left;
 }
@@ -359,13 +358,11 @@ footer {
 		text-shadow: 0.25em 0.25em 0.25em #424331;
 		text-align: center;
 		margin: 0 auto;
+		padding: 0.8em;
 		background-color: #ebe2d1;
 		clear: both;
 }
 
-footer p {
-	color: #422b00;
-}
 
 /* Media Query -------------------------------------------------------------------------/*
 /* Desktops and laptops ----------- */
