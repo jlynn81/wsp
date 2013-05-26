@@ -112,14 +112,13 @@ font-size:1em;
 }
 
 #tagline {
-margin; 54px 882px 90px 468px;
+margin: 54px 882px 90px 468px;
 text-align: center;
 float: left;
 }
 
 strong {
 font-weight: bold;
-float: none;
 }
 
 legend {
@@ -228,7 +227,6 @@ float: left;
 	padding: 1em;
 	border: 1em #422b00; 
 	background: #8f6f27;
-	background-color: 0.8;
 }
 
 blockquote {
@@ -323,7 +321,6 @@ text-align: center;
     background-image: -o-linear-gradient(#235707, #71a856);
     background-image: -ms-linear-gradient(#235707, #71a856);
     background-image: linear-gradient(#235707, #71a856);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#235707', EndColorStr='#71a856');     
 
     -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
