@@ -23,7 +23,7 @@
 	<div id="contactus">
 		<h1><strong>Contact Phone# (407)297-7528</strong></h1></div>
 
-	<nav id="nav">
+	<nav>
 		<ul>
 			<li><a href="index.html">Home</a></li>
 			<li><a href="about.html">About Us</a></li>
@@ -58,35 +58,42 @@
 				<td>Email:</td>
 				<td>info@mykrvc.com</td>
 			</tr>
-		</table>			
+		</table>
+					
 	<!-- End of the Contact Us/Veterinarian Information-->
 
 	<!-- Here is the beginning of the Form area -->
 		<form method="get" action="mailto:jlynn81@fullsail.edu">
 			<!-- This is the Members Personal Information -->
 		<fieldset>
-				<legend>Contact Information</legend>
-				
-					<label for="name" class="fixedwidth">Name</label>
-					<input name="name" type="text" id="name">
-					
-					<label for="email" class="fixedwidth">Email</label>
-					<input type="text" name="email" id="email"/>
-					
-					<label for="subject" class="fixedwidth">Subject</label>
-					<input type="text" name="subject" id="subject"/>	
-					
+			<legend>Contact Information</legend>	
+		
+			<div id="form-wrapper">
+    		<form>
+       		 <div id="form-inner">
+
+            <label for="name">Name:</label>
+            <input type="text" class="input" id="name">
+        
+            <label for="email">Email:</label>
+            <input type="email" class="input" id="email">
+        
+            <label for="message">Message:</label>
+            <textarea class="input textarea" id="message" placeholder="Your message here"></textarea>    
+        
+             <input type="submit" class="button" value="Send message">
+
+       		 </div>
+    		</form>
+			</div>
 		</fieldset>	
-			
-		<fieldset>
-				<legend>Message</legend>
-				<textarea rows="6" cols="30" name="message" id="message"></textarea>
-		</fieldset>	
+		
 	<!-- End of Form Data -->
 	
 	<!--Beginning of Clinic Hours-->
 	
-		<table class="hours">
+		<fieldset>
+			<table class="hours">
 			<tr>
 				<th>Clinic Hours</th>
 			</tr>	
@@ -103,9 +110,15 @@
 				<td>CLOSED</td>
 			</tr>
 		</table>
-<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?oe=utf-8&amp;client=firefox-a&amp;channel=fflb&amp;ie=UTF8&amp;q=kirkman+road+veterinarian+clinic+directions&amp;fb=1&amp;gl=us&amp;hq=kirkman+road+veterinarian+clinic+directions&amp;cid=0,0,8478002268053262566&amp;ll=28.540104,-81.45836&amp;spn=0.006295,0.006295&amp;t=h&amp;iwloc=A&amp;output=embed"></iframe>
-	<div id="map"><br />
-	  <small><a href="https://maps.google.com/maps?oe=utf-8&amp;client=firefox-a&amp;channel=fflb&amp;ie=UTF8&amp;q=kirkman+road+veterinarian+clinic+directions&amp;fb=1&amp;gl=us&amp;hq=kirkman+road+veterinarian+clinic+directions&amp;cid=0,0,8478002268053262566&amp;ll=28.540104,-81.45836&amp;spn=0.006295,0.006295&amp;t=h&amp;iwloc=A&amp;source=embed" style="color:#0000FF;text-align:left">View Larger Map</a></small> </div>
+		</fieldset>
+		
+	<!--Ending of Clinic Hours-->
+	<!--Image of the map and the clickable icons for the viewer-->	
+	
+	<div id="map">
+	  	<small><a href="https://maps.google.com/maps?oe=utf-8&amp;client=firefox-a&amp;channel=fflb&amp;ie=UTF8&amp;q=kirkman+road+veterinarian+clinic+directions&amp;fb=1&amp;gl=us&amp;hq=kirkman+road+veterinarian+clinic+directions&amp;cid=0,0,8478002268053262566&amp;ll=28.540104,-81.45836&amp;spn=0.006295,0.006295&amp;t=h&amp;iwloc=A&amp;source=embed" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+		<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?oe=utf-8&amp;client=firefox-a&amp;channel=fflb&amp;ie=UTF8&amp;q=kirkman+road+veterinarian+clinic+directions&amp;fb=1&amp;gl=us&amp;hq=kirkman+road+veterinarian+clinic+directions&amp;cid=0,0,8478002268053262566&amp;ll=28.540104,-81.45836&amp;spn=0.006295,0.006295&amp;t=h&amp;iwloc=A&amp;output=embed"></iframe>
+	</div>
 	<!--End to Clinic Hours-->
 </body>
 
