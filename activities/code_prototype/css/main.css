@@ -18,12 +18,7 @@ font: 1.5em;
 
 #logo {
 margin: 10px 0 10px 20px;
-}
-
-#contactus {
-	text-align: left;
-	margin: 1em;
-	overflow: hidden;
+float: left;
 }
 
 /* Navigation Beginning */
@@ -31,6 +26,7 @@ nav  {
 	display: block;
 	width: 100%;
 	overflow: hidden;
+	float: left;
 }
 
 nav ul {
@@ -50,6 +46,7 @@ nav ul {
 
 nav li {
 	clear: both;
+	display: inline;
 }
 
 nav a {
@@ -100,6 +97,15 @@ nav li:first-child a {
 }
 /* Navigation Ending */
   
+#image {
+clear: left;
+width: 
+}
+#links {
+margin: 10 10 10 10;
+float: right;
+}
+
 select {
 font-family: 'Libre Baskerville', serif;
 font-size:1em;
@@ -148,7 +154,7 @@ display: block;
 .hours {
 text-align: left;
 opacity: 0.8;
-clear: left;
+clear: both;
 }
 
 /* End of Table Data */
@@ -206,17 +212,9 @@ float: left;
 	float: left;
 }
 
-
-#links {
-	clear: both;
-	display: vertical;
-}
-
-
-
 #welcome {
 	font-family: 'Libre Baskerville', serif;
-	clear: left;
+	clear: both;
 	margin: 28px 28px 1420px 50px;
 	padding: 1em;
 	border: 1em #422b00; 
@@ -231,7 +229,7 @@ blockquote {
 ul,li {
 list-style: none;
 text-align: center;
-display: inline;
+display: block;
 }
 
 a {
@@ -352,6 +350,10 @@ text-align: center;
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.7) inset; 
 }
 /*End of Form Data */
+
+#contact {
+clear: both;
+}
 
 /* End of Content */
 footer {
