@@ -159,41 +159,28 @@ padding: 10px;
 float: left;
 }
 
-fieldset .intro { 
-font: ;
+fieldset .intro, .why, .working { 
 margin: 10px;
 color: #422b00;
 background-color: #ebe2d1;
+box-shadow: 2px 2px 2px #422b00;
 opacity: 0.8;
-float: left;
-}
-
-.why {
-text-align: center;
-display: block;
-border-collapse: collapse;
-margin-left: auto;
-margin-right: auto;
-color: #422b00;
-float: left;
-}
-
-.working {
-color: #422b00;
 float: left;
 }
 
 .hours {
 background-color: #fff;
 text-align: left;
+box-shadow: 2px 2px 2px #8f6f27;
 opacity: 0.8;
-clear: both;
+padding: 2em;
+float: right;
 }
 
 fieldset .contactinfo {
 margin: 0.04em;
 padding: 1em;
-clear: left;
+clear: both;
 }
 
 fieldset .address {
@@ -457,7 +444,7 @@ clear:both;
 	padding: 1.875%;
 	display: none;
 } 
-}
+
 }
 
 
