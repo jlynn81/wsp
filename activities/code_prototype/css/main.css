@@ -359,6 +359,14 @@ text-align: center;
 clear: both;
 }
 
+#pet_portal_link {
+color: #422b00;
+}
+
+#hospital-info {
+
+}
+
 /* End of Content */
 footer {
 		text-shadow: 0.25em 0.25em 0.25em #424331;
