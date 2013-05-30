@@ -31,7 +31,7 @@ nav  {
 
 nav ul {
 	margin: 3em;
-	padding: .7em;
+	padding: .4em;
 	float: left;
 	list-style: none;
 	background: #422b00;
@@ -153,7 +153,7 @@ display: block;
 
 fieldset {
 border: solid 0.05em #71a856;
-margin: 10px;
+margin: 18px;
 padding: 10px;
 float: left;
 }
@@ -165,15 +165,6 @@ background-color: #ebe2d1;
 box-shadow: 2px 2px 2px #422b00;
 opacity: 0.8;
 float: left;
-}
-
-.hours {
-background-color: #fff;
-text-align: left;
-box-shadow: 2px 2px 2px #8f6f27;
-opacity: 0.8;
-padding: 2em;
-float: right;
 }
 
 fieldset .contactinfo {
@@ -188,6 +179,15 @@ margin: 0.04em;
 padding: 1em;
 box-shadow: 2px 2px 2px #8f6f27;
 opacity: 0.8;
+}
+
+.hours {
+background-color: #fff;
+text-align: left;
+box-shadow: 2px 2px 2px #8f6f27;
+opacity: 0.8;
+padding: 2em;
+float: left;
 }
 
 h1 {
@@ -247,14 +247,13 @@ p {
 	color: #422b00;
 }
 
-div.center {
+.center {
 text-align: center;
 }
 
 /*Form Information */
 
-#form-wrapper
-{
+#form-wrapper {
     margin: 0 auto;
     padding: 20px;    
     position: relative;
@@ -270,8 +269,7 @@ text-align: center;
     background-image: repeating-linear-gradient(135deg, rgb(114,168,86) 27%, rgb(35,87,7) 64%);     
 }
 
-#form-wrapper:before, #form-wrapper:after
-{
+#form-wrapper:before, #form-wrapper:after {
     z-index: -1;
     position: absolute;
     content: "";
@@ -364,7 +362,7 @@ color: #422b00;
 }
 
 #hospital-info {
-
+font: 'Libre Baskerville', serif;
 }
 
 /* End of Content */
