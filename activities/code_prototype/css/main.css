@@ -397,7 +397,6 @@ footer {
 #image {
 	margin-top: 2em;
 	margin-left: 3em;
-	max-width: 100%;
 	float: left;
 }
 
@@ -430,6 +429,7 @@ margin-top: 0.5%;
 padding: 0.5%;
 float: left;
 }
+
 h1 {
 font-family: 'Libre Baskerville', serif;
 font-weight: bold;
@@ -443,22 +443,9 @@ clear:both;
 /* Styles */
 
 #home {
-    z-index: -999;
-  min-height: 100%;
-  min-width: 59.375%;
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
   display: none;
 }
-#image {
-	margin: 0 auto;
-	max-width: 100%;
-	padding: 1.875%;
-	display: none;
-} 
+
 }
 
 
