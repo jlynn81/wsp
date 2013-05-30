@@ -11,13 +11,21 @@
 }
 
 body {
-line-height:1;
+line-height: 2em;
 color:#000;
 font: 1.5em;
 }
-
+/* Header element of the content page */
 #logo {
 margin: 3em;
+float: left;
+}
+
+h1 {
+font: bold 2em 'Libre Baskerville', serif;
+margin-top: 6%;
+margin-left: 2%;
+padding: 3%;
 float: left;
 }
 
@@ -26,7 +34,7 @@ nav  {
 	display: block;
 	width: 100%;
 	overflow: hidden;
-	clear: both;
+	float: left;
 }
 
 nav ul {
@@ -96,14 +104,21 @@ nav li:first-child a {
 	border-radius: 4px 0 0 4px;            
 }
 /* Navigation Ending */
-  
-#image {
-clear: left;
-margin: 3em;
-}
-#links {
-margin: 10px 10px 10px 10px;
+/* End of the Header of the page */  
+
+
+.links {
+text-decoration: none;
 float: left;
+}
+
+#welcome {
+	font-family: 'Libre Baskerville', serif;
+	margin: 28px 28px 1420px 50px;
+	padding: 1em;
+	border: 1em #422b00; 
+	background: #8f6f27;
+	clear: both;
 }
 
 select {
@@ -200,12 +215,6 @@ padding: 2em;
 float: left;
 }
 
-h1 {
-font: bold 2em 'Libre Baskerville', serif;
-margin: 6%;
-padding: 3%;
-float: left;
-}
 
 h2 {
 font-family: 'Libre Baskerville', serif;
@@ -230,14 +239,7 @@ float: left;
 	float: left;
 }
 
-#welcome {
-	font-family: 'Libre Baskerville', serif;
-	clear: both;
-	margin: 28px 28px 1420px 50px;
-	padding: 1em;
-	border: 1em #422b00; 
-	background: #8f6f27;
-}
+
 
 blockquote {
 	font-style: italic;
