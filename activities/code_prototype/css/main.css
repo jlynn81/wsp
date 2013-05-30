@@ -7,7 +7,7 @@
   	position: fixed;
   	top: 0;
   	left: 0;
-  	opacity: 0.5;
+  	opacity: 0.9;
 }
 
 body {
@@ -119,6 +119,7 @@ float: left;
 
 strong {
 font-weight: bold;
+text-shadow: 2px 2px 2px #ebe2d1;
 }
 
 legend {
@@ -152,12 +153,19 @@ display: block;
 /* End of Table Data */
 
 fieldset {
-border: solid 0.05em #71a856;
-margin: 18px;
+border: solid 0.09em #71a856;
+margin-left: 56px;
+margin-bottom: 1em;
 padding: 10px;
 background: #71a856;
 box-shadow: 2px 2px 2px #235707;
+opacity: 0.8;
 float: left;
+}
+
+fieldset legend {
+text-shadow: 2px 2px 2px #ebe2d1;
+background: #235707;
 }
 
 fieldset .intro, .why, .working { 
@@ -203,6 +211,7 @@ h2 {
 font-family: 'Libre Baskerville', serif;
 font-weight: bold;
 box-shadow: 2px 2px 2px #71a856;
+box-shadow: 2px 2px 2px #422b00;
 }
 
 h4 {
@@ -247,6 +256,8 @@ color:#235707;
 p {
 	font-family: 'Libre Baskerville', serif;
 	color: #422b00;
+	text-shadow: 2px 2px 2px #8f6f27;
+	line-height: 2em;
 }
 
 .center {
