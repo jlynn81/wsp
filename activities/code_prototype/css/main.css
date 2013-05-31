@@ -9,7 +9,7 @@
   	left: 0;
   	opacity: 0.5;
 }
-
+/* Social Networking background gradient */
 #gradient {
 	z-index: -999;
 	min-height: 100%;
@@ -184,7 +184,7 @@ margin-right: 20px;
 margin-bottom: 1em;
 padding: 1em;
 background: #71a856;
-box-shadow: 2px 2px 2px #235707;
+box-shadow: 0.5em 0.5em 0.5em #235707;
 opacity: 0.8;
 float: left;
 }
@@ -194,13 +194,17 @@ text-shadow: 2px 2px 2px #ebe2d1;
 background: #235707;
 }
 
-fieldset .intro, .why, .working { 
+.intro, .why, .working { 
 margin: 10px;
 color: #422b00;
 background-color: #ebe2d1;
 box-shadow: 2px 2px 2px #422b00;
-opacity: 0.8;
+}
 
+th, td {
+display: block;
+text-align: center;
+float: left;
 }
 
 fieldset .contactinfo {
@@ -210,10 +214,7 @@ padding: 1em;
 
 .address {
 background-color: #fff;
-margin: 0.04em;
-padding: 1em;
-box-shadow: 2px 2px 2px #8f6f27;
-opacity: 0.8;
+box-shadow: 0.5em 0.5em 0.5em #8f6f27;
 }
 
 .hours {
@@ -249,8 +250,9 @@ box-shadow: 2px 2px 2px #422b00;
 margin: 56px;
 }
 
-.social p {
+section {
 margin: 56px;
+clear: both;
 }
 
 h4 {
@@ -268,8 +270,6 @@ float: left;
 #medical {
 	float: left;
 }
-
-
 
 blockquote {
 	font-style: italic;
