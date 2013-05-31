@@ -7,9 +7,19 @@
   	position: fixed;
   	top: 0;
   	left: 0;
-  	opacity: 0.9;
+  	opacity: 0.5;
 }
 
+#gradient {
+	z-index: -999;
+	min-height: 100%;
+  	min-width: 59.375%;
+  	width: 100%;
+  	height: 100%;
+  	position: fixed;
+  	top: 0;
+  	left: 0;
+}
 body {
 line-height: 2em;
 color:#000;
@@ -63,7 +73,7 @@ nav a {
 	text-decoration: none;
 	color: #71a856;
 	text-shadow: 0 1px 0 rgba(255,255,255,.5);
-	font: bold 1.25em 'Libre Baskerville', serif;
+	font: bold 1em 'Libre Baskerville', serif;
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	border-width: 1px;
@@ -170,8 +180,9 @@ display: block;
 fieldset {
 border: solid 0.09em #71a856;
 margin-left: 56px;
+margin-right: 20px;
 margin-bottom: 1em;
-padding: 10px;
+padding: 1em;
 background: #71a856;
 box-shadow: 2px 2px 2px #235707;
 opacity: 0.8;
@@ -189,13 +200,12 @@ color: #422b00;
 background-color: #ebe2d1;
 box-shadow: 2px 2px 2px #422b00;
 opacity: 0.8;
-float: left;
+
 }
 
 fieldset .contactinfo {
 margin: 0.04em;
 padding: 1em;
-clear: both;
 }
 
 .address {
@@ -212,15 +222,35 @@ text-align: left;
 box-shadow: 2px 2px 2px #8f6f27;
 opacity: 0.8;
 padding: 2em;
-float: left;
 }
 
+div p {
+margin: 56px;
+padding: 0.5em;
+width: 85%;
+background: #71a856;
+border: 1em solid #235707;
+float: left;
+}
 
 h2 {
 font-family: 'Libre Baskerville', serif;
 font-weight: bold;
 box-shadow: 2px 2px 2px #71a856;
 box-shadow: 2px 2px 2px #422b00;
+float: left;
+}
+
+.social {
+font-family: 'Libre Baskerville', serif;
+font-weight: bold;
+box-shadow: 2px 2px 2px #71a856;
+box-shadow: 2px 2px 2px #422b00;
+margin: 56px;
+}
+
+.social p {
+margin: 56px;
 }
 
 h4 {
@@ -243,6 +273,7 @@ float: left;
 
 blockquote {
 	font-style: italic;
+	clear: left;
 }
 
 ul,li {
@@ -260,11 +291,14 @@ p {
 	color: #422b00;
 	text-shadow: 2px 2px 2px #8f6f27;
 	line-height: 2em;
+	clear: both;
 }
 
 .center {
 text-align: center;
 }
+
+
 
 /*Form Information */
 
@@ -275,13 +309,11 @@ text-align: center;
     border: 1px solid #235707;
     
     background-color: #000;
-    
 	background-image: -moz-repeating-linear-gradient(135deg, rgb(114,168,86) 27%, rgb(35,87,7) 64%);							
 	background-image: -webkit-repeating-linear-gradient(135deg, rgb(114,168,86) 27%, rgb(35,87,7) 64%);   
- 	background-image: -o-repeating-linear-gradient(135deg, rgb(114,168,86) 27%, rgb(35,87,7) 64%);
-     
+ 	background-image: -o-repeating-linear-gradient(135deg, rgb(114,168,86) 27%, rgb(35,87,7) 64%); 
     background-image: -ms-repeating-linear-gradient(135deg, rgb(114,168,86) 27%, rgb(35,87,7) 64%);
-    background-image: repeating-linear-gradient(135deg, rgb(114,168,86) 27%, rgb(35,87,7) 64%);     
+    background-image: repeating-linear-gradient(135deg, rgb(114,168,86) 27%, rgb(35,87,7) 64%);    
 }
 
 #form-wrapper:before, #form-wrapper:after {
