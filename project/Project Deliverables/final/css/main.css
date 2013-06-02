@@ -1,0 +1,546 @@
+#home {
+	z-index: -999;
+  	min-height: 100%;
+  	min-width: 59.375%;
+  	width: 100%;
+  	height: 100%;
+  	position: fixed;
+  	top: 0;
+  	left: 0;
+  	opacity: 0.5;
+}
+/* Social Networking background gradient */
+#gradient {
+	z-index: -999;
+	min-height: 100%;
+  	min-width: 59.375%;
+  	width: 100%;
+  	height: 100%;
+  	position: fixed;
+  	top: 0;
+  	left: 0;
+}
+body {
+line-height: 2em;
+color:#000;
+font: 1.5em;
+}
+
+/* Header element of the content page */
+#logo {
+margin: 3em;
+float: left;
+}
+
+h1 {
+font: bold 2em 'Libre Baskerville', serif;
+margin-top: 6%;
+margin-left: 2%;
+padding: 3%;
+float: left;
+}
+
+/* Navigation Beginning */
+nav  {
+	display: block;
+	width: 100%;
+	overflow: hidden;
+	float: left;
+}
+
+nav ul {
+	margin: 3em;
+	margin-top: 1%;
+	padding: .4em;
+	float: left;
+	list-style: none;
+	background: #422b00;
+	background: rgba(0,0,0,.2);
+	-moz-border-radius: .5em;
+	-webkit-border-radius: .5em;
+	border-radius: .5em;    
+	-moz-box-shadow: 0 1px 0 rgba(255,255,255,.2), 0 2px 1px rgba(0,0,0,.8) inset;
+	-webkit-box-shadow: 0 1px 0 rgba(255,255,255,.2), 0 2px 1px rgba(0,0,0,.8) inset;
+	box-shadow: 0 1px 0 rgba(255,255,255,.2), 0 2px 1px rgba(0,0,0,.8) inset; 
+}
+
+nav li {
+	clear: both;
+	display: inline;
+}
+
+nav a {
+	float:left;
+	padding: 1em 3.2em;
+	text-decoration: none;
+	color: #71a856;
+	text-shadow: 0 1px 0 rgba(255,255,255,.5);
+	font: bold 1em 'Libre Baskerville', serif;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #fff #ccc #999 #eee;
+	background: #c1c1c1;
+	background: -moz-linear-gradient(#f5f5f5, #c1c1c1);
+	background: -webkit-gradient(linear, left top, left bottom, from(#f5f5f5), to(#c1c1c1));
+	background: -webkit-linear-gradient(#f5f5f5, #c1c1c1);
+	background: -o-linear-gradient(#f5f5f5, #c1c1c1);
+	background: -ms-linear-gradient(#f5f5f5, #c1c1c1);
+	background: linear-gradient(#f5f5f5, #c1c1c1);            
+ }
+ 
+nav a:hover, nav a:focus {
+	outline: 0;
+	color: #ebe2d1;
+	text-shadow: 0 1px 0 rgba(0,0,0,.2);
+	background: #8f6f27;
+	background: -moz-linear-gradient(#8f6f27, #235707);
+	background: -webkit-gradient(linear, left top, left bottom, from(#fac754), to(#235707));
+	background: -webkit-linear-gradient(#fac754, #235707);
+	background: -o-linear-gradient(#fac754, #235707);
+	background: -ms-linear-gradient(#fac754, #235707);
+	background: linear-gradient(#fac754, #235707);
+}
+
+nav a:active {
+	-moz-box-shadow: 0 0 2px 2px rgba(0,0,0,.3) inset;
+	-webkit-box-shadow: 0 0 2px 2px rgba(0,0,0,.3) inset;
+	box-shadow: 0 0 2px 2px rgba(0,0,0,.3) inset;
+}
+ 
+nav li:first-child a {
+	border-left: 0;
+	-moz-border-radius: 4px 0 0 4px;
+	-webkit-border-radius: 4px 0 0 4px;
+	border-radius: 4px 0 0 4px;            
+}
+/* Navigation Ending */
+/* End of the Header of the page */  
+
+#image {
+	margin-left: 36px;
+	max-width: 100%;
+	padding: 1em;
+	float: left;
+}
+
+.links {
+text-decoration: none;
+padding-top: 2em;
+margin-left: 36px;
+margin-bottom: 2em;
+float: none;
+}
+
+#welcome {
+	font-family: 'Libre Baskerville', serif;
+	margin: 28px 28px 1420px 50px;
+	padding: 1em;
+	border: 1em #422b00; 
+	background: #8f6f27;
+	clear: both;
+}
+
+select {
+font-family: 'Libre Baskerville', serif;
+font-size:1em;
+}
+
+#tagline {
+margin: 54px 882px 90px 468px;
+text-align: center;
+float: left;
+}
+
+strong {
+font-weight: bold;
+text-shadow: 2px 2px 2px #ebe2d1;
+}
+
+legend {
+font-size: 18pt;
+}
+
+/* Table Date */
+th  {
+text-align: center;
+color: #422b00;
+padding: 0.3em;
+border-radius: 10px;
+font-weight: bolder;
+clear: both;
+display: inline;
+}
+
+.content {
+float: left;
+}
+
+/* End of Table Data */
+
+fieldset {
+border: solid 0.09em #71a856;
+margin-left: 56px;
+margin-right: 20px;
+margin-bottom: 1em;
+padding: 1em;
+background: #71a856;
+box-shadow: 0.5em 0.5em 0.5em #235707;
+opacity: 0.9;
+clear: both;
+}
+
+fieldset legend {
+text-shadow: 2px 2px 2px #ebe2d1;
+background: #235707;
+}
+
+.intro, .why, .working { 
+margin: 10px;
+color: #422b00;
+background-color: #ebe2d1;
+box-shadow: 2px 2px 2px #422b00;
+}
+
+.address {
+margin-top: 10px;
+margin-left: 56px;
+text-align: left;
+box-shadow: 0.5em 0.5em 0.5em #8f6f27;
+float: left;
+}
+
+.hours {
+margin-top: 20px;
+margin-left: 56px;
+margin-bottom: 20px;
+padding: 1em;
+text-align: left;
+background-color: #71a856;
+box-shadow: 0.5em 0.5em 0.5em #8f6f27;
+float: left;
+}
+
+.intro_paragraph {
+margin: 56px;
+margin-top: 10px;
+padding: 0.5em;
+width: 25%;
+background: #71a856;
+border: 0.5em solid #235707;
+float: left;
+}
+
+h2 {
+font-family: 'Libre Baskerville', serif;
+font-weight: bold;
+box-shadow: 2px 2px 2px #71a856;
+box-shadow: 2px 2px 2px #422b00;
+float: left;
+}
+
+.social {
+font-family: 'Libre Baskerville', serif;
+font-weight: bold;
+box-shadow: 2px 2px 2px #71a856;
+box-shadow: 2px 2px 2px #422b00;
+margin: 56px;
+}
+
+section {
+margin: 56px;
+clear: both;
+}
+
+h4 {
+font-family: 'Libre Baskervill', serif;
+font-weight: bold;
+text-align: center;
+}
+
+/*map image */
+#map {
+text-align: left;
+}
+
+blockquote {
+	font-style: italic;
+	clear: left;
+}
+
+ul,li {
+list-style: none;
+text-align: left;
+display: block;
+}
+
+a {
+color:#235707;
+}
+
+p {
+	font-family: 'Libre Baskerville', serif;
+	color: #422b00;
+	text-shadow: 2px 2px 2px #8f6f27;
+	line-height: 2em;
+	clear: both;
+}
+
+.center {
+text-align: center;
+}
+
+/*Form Information on the Contact Page */
+#contactform {
+margin-top: 10px;
+background-color: #71a856;
+text-shadow: 2px 2px 2px #ebe2d1;
+}
+
+.contactinfo {
+float: none;
+}
+
+label input {
+display: block;
+text-align: left;
+float: left;
+}
+
+input {
+border: 0.25em solid #235707;
+border-radius: 6px;
+}
+
+/* Gradient Button */
+myButton {
+    	-moz-box-shadow:inset 0px 0px 14px -3px #eaf5e9;
+    	-webkit-box-shadow:inset 0px 0px 14px -3px #eaf5e9;
+   		box-shadow:inset 0px 0px 14px -3px #eaf5e9;
+        
+    	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #2c6606), color-stop(1, #0e2b0b));
+		background:-moz-linear-gradient(top, #2c6606 5%, #0e2b0b 100%);
+    	background:-webkit-linear-gradient(top, #2c6606 5%, #0e2b0b 100%);
+    	background:-o-linear-gradient(top, #2c6606 5%, #0e2b0b 100%);
+    	background:-ms-linear-gradient(top, #2c6606 5%, #0e2b0b 100%);
+    	background:linear-gradient(to bottom, #2c6606 5%, #0e2b0b 100%);
+        
+    	background-color:#2c6606;
+        
+    	-moz-border-radius:6px;
+    	-webkit-border-radius:6px;
+    	border-radius:6px;
+    	border:1px solid #a2cf9d;
+        
+    	display:inline-block;
+    	color:#c5d4c3;
+    	font-family:arial;
+    	font:1em bold;
+    	margin: 1em;
+    	padding:6px 24px;
+    	text-decoration:none;
+        text-shadow:0px 1px 0px #979e96;
+        float: right;
+        
+}
+.myButton:hover {
+        background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #0e2b0b), color-stop(1, #2c6606));
+        background:-moz-linear-gradient(top, #0e2b0b 5%, #2c6606 100%);
+        background:-webkit-linear-gradient(top, #0e2b0b 5%, #2c6606 100%);
+        background:-o-linear-gradient(top, #0e2b0b 5%, #2c6606 100%);
+        background:-ms-linear-gradient(top, #0e2b0b 5%, #2c6606 100%);
+        background:linear-gradient(to bottom, #0e2b0b 5%, #2c6606 100%);
+        
+        background-color:#0e2b0b;
+}
+.myButton:active {
+        position:relative;
+        top:1px;
+}
+/*End of Form Data */
+
+#contact {
+clear: both;
+}
+
+#pet_portal_link {
+color: #422b00;
+}
+
+#hospital-info {
+font: 'Libre Baskerville', serif;
+}
+
+/* End of Content */
+footer {
+		text-shadow: 0.25em 0.25em 0.25em #424331;
+		text-align: center;
+		padding: 0.8em;
+		background-color: #ebe2d1;
+		clear: both;
+}
+
+
+/* Media Query -------------------------------------------------------------------------/*
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 1224px) {
+/* Styles */
+#gradient {
+	z-index: -999;
+	min-height: 100%;
+  	min-width: 59.375%;
+  	width: 100%;
+  	height: 100%;
+  	position: fixed;
+  	top: 0;
+  	left: 0;
+}
+.hours {
+margin: 20px;
+margin-left: 56px;
+padding: 0.5em;
+text-align: left;
+background-color: #71a856;
+box-shadow: 0.5em 0.5em 0.5em #8f6f27;
+float: left;
+}
+
+.links {
+margin-right: 0.5em;
+margin-left: 0.3em;
+margin-top: 0.5%;
+padding: 0.5%;
+float: right;
+}
+}
+
+
+/* Tablet Portrait size to Standard 960 (devices and browsers) */
+@media screen and (min-width: 768px) and (max-width: 956px) {
+
+#home {
+	z-index: -999;
+  	min-height: 100%;
+  	min-width: 59.375%;
+  	width: 100%;
+  	height: 100%;
+  	position: fixed;
+  	top: 0;
+  	left: 0;
+  	display: none;
+}
+
+#logo {
+margin: 1em 0 1em 2em;
+clear: left;
+}
+
+#image {
+	margin: 1em 0 1em 2em;
+	max-width: 100%;
+	padding: 1em;
+}
+
+.links {
+margin-left: 0.3em;
+margin-top: 0.5%;
+padding: 0.5%;
+float: left;
+}
+
+h1 {
+font-family: 'Libre Baskerville', serif;
+font-weight: bold;
+margin: 0.01em 0 0.01em 1.3em;
+clear:both;
+}
+
+.hours {
+margin: 20px;
+margin-left: 56px;
+padding: 0.5em;
+text-align: left;
+background-color: #71a856;
+box-shadow: 0.5em 0.5em 0.5em #8f6f27;
+float: left;
+}
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+#home {
+	z-index: -999;
+  	min-height: 100%;
+  	min-width: 59.375%;
+  	width: 100%;
+  	height: 100%;
+  	position: fixed;
+  	top: 0;
+  	left: 0;
+  	display: none;
+}
+
+h1 {
+margin: 20px;
+font: bold 2em 'Libre Baskerville', serif;
+text-align: center;
+float: left;
+}
+
+td {
+display: inline;
+}
+
+.hours {
+margin: 20px;
+margin-left: 56px;
+padding: 0.5em;
+text-align: left;
+background-color: #71a856;
+box-shadow: 0.5em 0.5em 0.5em #8f6f27;
+float: left;
+}
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+/* Styles */
+
+#home {
+	z-index: -999;
+  	min-height: 100%;
+  	min-width: 59.375%;
+  	width: 100%;
+  	height: 100%;
+  	position: fixed;
+  	top: 0;
+  	left: 0;
+  	display: none;
+}
+
+#image {
+	margin-left: 2em;
+	margin-bottom: 0.5em;
+	max-width: 100%;
+	padding: 1em;
+	display: none;
+}
+h1 {
+font: bold 2em 'Libre Baskerville', serif;
+text-align: center;
+float: left;
+}
+.hours {
+margin: 20px;
+margin-left: 56px;
+padding: 0.5em;
+text-align: left;
+background-color: #71a856;
+box-shadow: 0.5em 0.5em 0.5em #8f6f27;
+float: left;
+}
+}
+
+
+
