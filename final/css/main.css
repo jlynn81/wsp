@@ -118,6 +118,7 @@ nav li:first-child a {
 /* Navigation Ending */
 /* End of the Header of the page */  
 
+/* Body content on the home page*/
 #image {
 	margin-left: 36px;
 	max-width: 100%;
@@ -141,6 +142,7 @@ float: none;
 	background: #8f6f27;
 	clear: both;
 }
+/* End og body content on the site */
 
 select {
 font-family: 'Libre Baskerville', serif;
@@ -370,6 +372,7 @@ color: #422b00;
 
 #hospital-info {
 font: 'Libre Baskerville', serif;
+clear: left
 }
 
 /* End of Content */
@@ -465,6 +468,8 @@ background-color: #71a856;
 box-shadow: 0.5em 0.5em 0.5em #8f6f27;
 float: left;
 }
+
+
 }
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
